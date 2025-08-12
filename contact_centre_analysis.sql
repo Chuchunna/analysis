@@ -57,3 +57,24 @@ SELECT
     m.incident_count AS month_incidents
 FROM busiest_day d, busiest_week w, busiest_month m;
 
+/* 
+Objective: Count the number of incidents by type at each location 
+from the contact centre dataset.
+Steps:
+1. Select location and incident description columns.
+2. Count the number of incidents grouped by location and incident type.
+3. Order the results alphabetically by location and incident description.
+*/
+
+SELECT 
+    location,                  -- Select the location of the incident
+    incident_description,      -- Select the type/description of the incident
+    COUNT(*) AS incident_count -- Count how many incidents for each location and description
+FROM 'contact_centre_dataset (1).csv'  -- Specify the data source (CSV file)
+GROUP BY 
+    location,                  -- Group results by location
+    incident_description       -- and by incident type to aggregate counts
+ORDER BY 
+    location,                  -- Order output alphabetically by location
+    incident_description;      -- Then order by incident description within each location
+
