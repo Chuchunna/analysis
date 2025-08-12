@@ -11,7 +11,7 @@ Steps:
 WITH source AS (
     SELECT 
         STRPTIME(Opened_on, '%d/%m/%Y %H:%M') AS parsed_date -- Convert from DD/MM/YYYY HH:MM to TIMESTAMP
-    FROM read_csv_auto('contact_centre_dataset (1).csv')
+    FROM 'contact_centre_dataset (1).csv'
 ),
 
 -- Step 2a: Find the busiest single day by counting incidents per date
