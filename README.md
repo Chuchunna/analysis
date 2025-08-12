@@ -30,7 +30,7 @@ It focuses on analyzing a **real-world contact centre dataset** to uncover opera
 
 ## 🛠 Tools & Skills
 
-- **DuckDB SQL** – for querying CSV data directly
+- **SQL** – for querying CSV data directly
 - **Excel** – for pivot tables, stacked bar charts, and data formatting
 - **Data Cleaning** – parsing date fields, standardizing formats
 - **Data Visualization** – applying color palettes for readability and accessibility
