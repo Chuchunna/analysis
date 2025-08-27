@@ -42,7 +42,7 @@ It analyzes a **real-world contact centre dataset** to uncover operational insig
 - 📌 **25% of incidents** were related to **call quality** (the #1 issue).  
 - 📌 **Peak incident day** was **July 18** with 4 incidents reported.  
 - 📌 **Manchester & London** were the most affected cities (4 incidents each).  
-- 📌 **System issues** were the main drivers of incidents across locations.  
+- 📌 **Call quality issues** were the main drivers of incidents across locations.  
 
 ---
 
