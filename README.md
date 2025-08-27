@@ -1,18 +1,18 @@
 # 📊 Contact Centre Data Analysis – Springboard Project  
 
 This project was completed as part of the **Springboard Data Analytics** program.  
-It analyzes a **real-world contact centre dataset** to uncover operational insights using **SQL** (practiced on *freeCodeCamp’s SQLite environment*) and **Excel**.  
+It analyzes a **real-world contact centre dataset** to uncover operational insights using **SQL** (practiced on *[freeCodeCamp](https://www.freecodecamp.org/)'s SQLite environment*) and **Excel**.  
 
 ---
 
 ## 📁 Project Files  
 
-- **SQL Queries** – `contact_centre_analysis.sql`  
+- **[SQL Queries](sql/contact_centre_analysis.sql)**  
   - Identify the busiest **day**, **week**, and **month**  
   - Determine the **most frequent incident types**  
   - Prepare data summaries for visualization  
 
-- **Excel Dashboard** – `contact_centre_dashboard.xlsx`  
+- **[Excel Dashboard](excel/contact_centre_dashboard.xlsx)**  
   - **Incident Management Dashboard (July 2022)**  
   - Highlights **incident types, peak days, and affected locations**  
   - Visual callouts for **key metrics and hotspots**  
@@ -50,7 +50,9 @@ It analyzes a **real-world contact centre dataset** to uncover operational insig
 
 **Incident Management Dashboard – July 2022**  
 
-![Dashboard Preview](images/incident_dashboard.png)  
+[![Dashboard Preview](images/incident_dashboard.png)](excel/contact_centre_dashboard.xlsx)  
+
+*(Click image to open the dashboard)*  
 
 ---
 
@@ -58,4 +60,4 @@ It analyzes a **real-world contact centre dataset** to uncover operational insig
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/Chuchunna/contact-centre-analysis.git
+   git clone https://github.com/YOUR_USERNAME/contact-centre-analysis.git
