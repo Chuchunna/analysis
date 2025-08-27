@@ -1,61 +1,61 @@
-# 📊 Contact Centre Data Analysis – Springboard Project
+# 📊 Contact Centre Data Analysis – Springboard Project  
 
 This project was completed as part of the **Springboard Data Analytics** program.  
-It focuses on analyzing a **real-world contact centre dataset** to uncover operational insights using **SQL** (DuckDB) and **Excel**.
+It analyzes a **real-world contact centre dataset** to uncover operational insights using **SQL** (practiced on *freeCodeCamp’s SQLite environment*) and **Excel**.  
 
 ---
 
-## 📁 Project Files
+## 📁 Project Files  
 
 - **SQL Queries** – `contact_centre_analysis.sql`  
-  Contains queries to:
-  - Identify the busiest **day**, **week**, and **month**
-  - Determine the **most frequent incident types**
-  - Prepare data for visualization
+  - Identify the busiest **day**, **week**, and **month**  
+  - Determine the **most frequent incident types**  
+  - Prepare data summaries for visualization  
 
 - **Excel Dashboard** – `contact_centre_dashboard.xlsx`  
-  - Stacked bar chart showing **incident volume by location and type**
-  - Pivot tables for summarizing incident data
+  - **Incident Management Dashboard (July 2022)**  
+  - Highlights **incident types, peak days, and affected locations**  
+  - Visual callouts for **key metrics and hotspots**  
 
 ---
 
-## 🔍 Project Goals
+## 🔍 Project Goals  
 
-1. **Find the busiest day, week, and month** for incident volume.
-2. **Identify the most common incident types**.
-3. Create a **stacked bar chart in Excel** showing volume & type of incidents per location.
-4. Strengthen skills in **SQL querying** and **Excel visualization**.
-
----
-
-## 🛠 Tools & Skills
-
-- **SQL** – for querying CSV data directly
-- **Excel** – for pivot tables, stacked bar charts, and data formatting
-- **Data Cleaning** – parsing date fields, standardizing formats
-- **Data Visualization** – applying color palettes for readability and accessibility
+1. Find the **busiest day, week, and month** for incidents.  
+2. Identify the **most common incident types**.  
+3. Build a **management-ready dashboard** to highlight incident trends.  
+4. Strengthen skills in **SQL querying (SQLite via CodeCamp)** and **Excel visualization**.  
 
 ---
 
-## 📊 Key Insights
+## 🛠 Tools & Skills  
 
-- **System Crash** incidents had the highest volume overall.
-- Certain locations consistently handled more **Unable to Accept Call** cases.
-- Incident volumes peak at specific times of the year, suggesting seasonal trends.
-
----
-
-## 📷 Preview
-
-**Stacked Bar Chart (Excel)**  
-*Volume & Type of Incidents per Location*
-
-![Stacked Bar Chart Preview](images/stacked_bar_chart.png)
+- **SQL (SQLite via freeCodeCamp)** – for practicing queries and data analysis  
+- **Excel** – pivot tables, dashboards, stacked bar charts  
+- **Data Cleaning** – standardizing dates, formats, and categories  
+- **Data Visualization** – dashboard design with color-coded insights  
 
 ---
 
-## 🚀 How to Use
+## 📊 Key Insights (July 2022 Dashboard)  
 
-1. Clone the repository:
+- 📌 **25% of incidents** were related to **call quality** (the #1 issue).  
+- 📌 **Peak incident day** was **July 18** with 4 incidents reported.  
+- 📌 **Manchester & London** were the most affected cities (4 incidents each).  
+- 📌 **System issues** were the main drivers of incidents across locations.  
+
+---
+
+## 📷 Dashboard Preview  
+
+**Incident Management Dashboard – July 2022**  
+
+![Dashboard Preview](images/incident_dashboard.png)  
+
+---
+
+## 🚀 How to Use  
+
+1. Clone the repository:  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/contact-centre-analysis.git
+   git clone https://github.com/Chuchunna/contact-centre-analysis.git
