@@ -50,7 +50,7 @@ It analyzes a **real-world contact centre dataset** to uncover operational insig
 
 **Incident Management Dashboard – July 2022**  
 
-[![Dashboard Preview](images/incident_dashboard.png)](excel/contact_centre_dashboard.xlsx)  
+[![Dashboard Preview](images/Incident_dashboard.png)](excel/contact_centre_dashboard.xlsx)  
 
 *(Click image to open the dashboard)*  
 
